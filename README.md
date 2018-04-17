@@ -1,2 +1,2 @@
-# ModularApp
+# MainProject
 主工程
