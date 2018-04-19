@@ -14,8 +14,8 @@
 		582453572085CFE2001E6737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582453562085CFE2001E6737 /* Assets.xcassets */; };
 		5824535A2085CFE2001E6737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582453582085CFE2001E6737 /* LaunchScreen.storyboard */; };
 		5824535D2085CFE2001E6737 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5824535C2085CFE2001E6737 /* main.m */; };
-		5824539C2085DD5B001E6737 /* ReservationModuleTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 5824539B2085DD5B001E6737 /* ReservationModuleTarget.m */; };
-		5824539F2085DD95001E6737 /* YHRestaurantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5824539D2085DD95001E6737 /* YHRestaurantViewController.m */; };
+		5858D43A20883A77008AE297 /* YHRestaurantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858D43620883A77008AE297 /* YHRestaurantViewController.m */; };
+		5858D43B20883A77008AE297 /* ReservationModuleTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858D43720883A77008AE297 /* ReservationModuleTarget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +30,10 @@
 		582453592085CFE2001E6737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5824535B2085CFE2001E6737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5824535C2085CFE2001E6737 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5824539A2085DD5B001E6737 /* ReservationModuleTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReservationModuleTarget.h; sourceTree = "<group>"; };
-		5824539B2085DD5B001E6737 /* ReservationModuleTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReservationModuleTarget.m; sourceTree = "<group>"; };
-		5824539D2085DD95001E6737 /* YHRestaurantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHRestaurantViewController.m; sourceTree = "<group>"; };
-		5824539E2085DD95001E6737 /* YHRestaurantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHRestaurantViewController.h; sourceTree = "<group>"; };
+		5858D43620883A77008AE297 /* YHRestaurantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHRestaurantViewController.m; sourceTree = "<group>"; };
+		5858D43720883A77008AE297 /* ReservationModuleTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationModuleTarget.m; sourceTree = "<group>"; };
+		5858D43820883A77008AE297 /* YHRestaurantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHRestaurantViewController.h; sourceTree = "<group>"; };
+		5858D43920883A77008AE297 /* ReservationModuleTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationModuleTarget.h; sourceTree = "<group>"; };
 		B03B6BB97C4A749A1EB4723A /* Pods-MainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MainProject/Pods-MainProject.release.xcconfig"; sourceTree = "<group>"; };
 		B5411438963C8839447BD3AF /* libPods-MainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,14 +80,11 @@
 		5824534C2085CFE2001E6737 /* MainProject */ = {
 			isa = PBXGroup;
 			children = (
-				5824539A2085DD5B001E6737 /* ReservationModuleTarget.h */,
-				5824539B2085DD5B001E6737 /* ReservationModuleTarget.m */,
+				5858D43520883A77008AE297 /* Reservation */,
 				5824534D2085CFE2001E6737 /* AppDelegate.h */,
 				5824534E2085CFE2001E6737 /* AppDelegate.m */,
 				582453502085CFE2001E6737 /* ViewController.h */,
 				582453512085CFE2001E6737 /* ViewController.m */,
-				5824539E2085DD95001E6737 /* YHRestaurantViewController.h */,
-				5824539D2085DD95001E6737 /* YHRestaurantViewController.m */,
 				582453532085CFE2001E6737 /* Main.storyboard */,
 				582453562085CFE2001E6737 /* Assets.xcassets */,
 				582453582085CFE2001E6737 /* LaunchScreen.storyboard */,
@@ -95,6 +92,17 @@
 				5824535C2085CFE2001E6737 /* main.m */,
 			);
 			path = MainProject;
+			sourceTree = "<group>";
+		};
+		5858D43520883A77008AE297 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				5858D43920883A77008AE297 /* ReservationModuleTarget.h */,
+				5858D43720883A77008AE297 /* ReservationModuleTarget.m */,
+				5858D43620883A77008AE297 /* YHRestaurantViewController.m */,
+				5858D43820883A77008AE297 /* YHRestaurantViewController.h */,
+			);
+			path = Reservation;
 			sourceTree = "<group>";
 		};
 		622F069855F9756B24AB022C /* Frameworks */ = {
@@ -116,8 +124,6 @@
 				582453462085CFE2001E6737 /* Sources */,
 				582453472085CFE2001E6737 /* Frameworks */,
 				582453482085CFE2001E6737 /* Resources */,
-				AF6361151692ACF46D56831E /* [CP] Embed Pods Frameworks */,
-				54FF9BAC4C17E2BAED19C386 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,36 +181,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		54FF9BAC4C17E2BAED19C386 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MainProject/Pods-MainProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AF6361151692ACF46D56831E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E13D2FD10D4463E42A8AFA86 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,9 +208,9 @@
 			files = (
 				582453522085CFE2001E6737 /* ViewController.m in Sources */,
 				5824535D2085CFE2001E6737 /* main.m in Sources */,
-				5824539F2085DD95001E6737 /* YHRestaurantViewController.m in Sources */,
+				5858D43A20883A77008AE297 /* YHRestaurantViewController.m in Sources */,
 				5824534F2085CFE2001E6737 /* AppDelegate.m in Sources */,
-				5824539C2085DD5B001E6737 /* ReservationModuleTarget.m in Sources */,
+				5858D43B20883A77008AE297 /* ReservationModuleTarget.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

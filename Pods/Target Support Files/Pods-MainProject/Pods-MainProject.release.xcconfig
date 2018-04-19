@@ -1,9 +1,9 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/MediatorUserModuleCategory"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/CTMediator" "$PODS_CONFIGURATION_BUILD_DIR/MediatorUserModuleCategory"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CTMediator" -isystem "${PODS_ROOT}/Headers/Public/MediatorUserModuleCategory"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"CTMediator" -l"MediatorUserModuleCategory" -framework "UIKit"
-PODS_BUILD_DIR = $BUILD_DIR
-PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/MediatorReservationModuleCategory" "${PODS_ROOT}/Headers/Public/MediatorUserModuleCategory" "${PODS_ROOT}/Headers/Public/UserModule"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/MediatorReservationModuleCategory" "${PODS_CONFIGURATION_BUILD_DIR}/MediatorUserModuleCategory" "${PODS_CONFIGURATION_BUILD_DIR}/UserModule"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CTMediator" -isystem "${PODS_ROOT}/Headers/Public/MediatorReservationModuleCategory" -isystem "${PODS_ROOT}/Headers/Public/MediatorUserModuleCategory" -isystem "${PODS_ROOT}/Headers/Public/UserModule"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CTMediator" -l"MediatorReservationModuleCategory" -l"MediatorUserModuleCategory" -l"UserModule" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods

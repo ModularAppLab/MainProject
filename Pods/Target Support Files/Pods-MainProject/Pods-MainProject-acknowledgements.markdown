@@ -6,7 +6,17 @@ This application makes use of the following third party libraries:
 MIT
 
 
+## MediatorReservationModuleCategory
+
+MIT
+
+
 ## MediatorUserModuleCategory
+
+MIT
+
+
+## UserModule
 
 MIT
 

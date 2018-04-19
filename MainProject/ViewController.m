@@ -20,10 +20,8 @@
     
     
 }
+- (IBAction)didSelectButton:(id)sender {
 
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    
     UIViewController *userViewController = [CTMediator userViewControllerWithId:@"4"];
     [self presentViewController:userViewController animated:YES completion:NULL];
 }

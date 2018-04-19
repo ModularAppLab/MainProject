@@ -11,9 +11,9 @@
 
 @implementation ReservationModuleTarget
 
-+ (UIViewController *)restaurantViewControllerWithId:(NSString *)restaurantId {
+- (UIViewController *)restaurantViewControllerWithParams:(NSDictionary *)params {
     YHRestaurantViewController *vc = [[YHRestaurantViewController alloc] init];
-    vc.restaurantId = restaurantId;
+    vc.restaurantId = params[@"restaurantId"];
     return vc;
 }
 

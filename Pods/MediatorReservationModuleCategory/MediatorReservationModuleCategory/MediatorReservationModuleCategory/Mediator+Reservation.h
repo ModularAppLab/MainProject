@@ -1,14 +1,14 @@
 //
-//  ReservationModuleTarget.h
-//  MainProject
+//  Mediator+Reservation.h
+//  MediatorReservationModuleCategory
 //
 //  Created by ShannonChen on 2018/4/17.
 //  Copyright © 2018年 ShannonChen. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <CTMediator/CTMediator.h>
 
-@interface ReservationModuleTarget : NSObject
+@interface CTMediator (Reservation)
 
 + (UIViewController *)restaurantViewControllerWithId:(NSString *)restaurantId;
 
